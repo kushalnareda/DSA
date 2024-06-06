@@ -1,5 +1,10 @@
-#include iosstream
 
+#include <iostream>
+#include <stack>
+#include <string>
+#include <cctype> // for isdigit
+
+using namespace std;
 
 int evaluatePostfix(string S)
     {
