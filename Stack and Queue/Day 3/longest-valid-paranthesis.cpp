@@ -35,8 +35,8 @@ int main() {
     string S1 = "((()";
     string S2 = ")()())";
     
-    cout << "Example 1: " << solution.maxLength(S1) << endl;  // Output: 2
-    cout << "Example 2: " << solution.maxLength(S2) << endl;  // Output: 4
+    cout << "Example 1: " << solution.maxLength(S1) << endl;  
+    cout << "Example 2: " << solution.maxLength(S2) << endl;  
     
     return 0;
 }
